@@ -1,0 +1,209 @@
+button{
+    border:0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background: gray;
+}
+div{
+    border-radius: 4px;
+}
+.container{
+    overflow:hidden;
+    width: 750px;
+
+}
+/* .box
+{
+    white-space:nowrap;
+} */
+.block1,.block2{z-index: 1;}
+@media screen and (max-width: 1600px) {
+    #block1,#block2
+{
+    /* vertical-align: top; */
+    width: 400px;
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+    height: 200px;
+    background: white;
+}
+  }
+#block1,#block2
+{
+    vertical-align: top;
+    width: 400px;
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 200px;
+    background: white;
+}
+#block2{
+    position: relative;
+    left: 5%;
+    width: 300px;
+}
+
+#input1{
+    display: inline-block;
+    left: 2%;
+    margin: 5px;
+    width: 300px;
+    position: relative;
+    z-index: 100;
+}
+input[type="image"] {
+    width: 1.2em;
+    position: relative;
+    left: -1.8em;
+    vertical-align: middle;
+    z-index: 100;
+    background: white;
+  }
+ .string2,.string3{
+     position: relative;
+     width: 400px;
+     height: 30px;
+    
+     vertical-align: top;
+     
+ }
+ .value{
+     position: relative;
+     height: 26px;
+     width: 26px;
+     display: inline-block;
+     text-align: center;
+     vertical-align: middle;
+     background: #e6e6e6;
+     
+     
+ }
+ .Name{
+     position: relative;
+     width: 73px;
+     height: 20px;
+     left: 2%;
+     margin: 5px;
+     display: inline-block;
+     vertical-align: middle;
+    
+ }
+ .textIside{
+     margin-left: 1px;
+     
+ }
+ .header1{
+     position: relative;
+     height: 20px;
+     width: 80px;
+     margin-top: 15px;
+     margin-bottom: 5px;
+ }
+ 
+ p{
+     position: relative;
+     top: -13px;
+     display: inline-block;
+ }
+ .status1,.status1B{
+     height: 26px;
+     position: relative;
+     width: 118px;
+     display: inline-block;
+     left: 30%;
+     vertical-align: middle;
+     
+     
+ }
+ .status1{
+     left:27%;
+ }
+ /* statusN это класс который Не куплено */
+ .status,.statusN,.statusBlock2,.statusBlock3,.statusBlock4{
+     float: left;
+     position: relative;
+     height: 26px;
+     width: 90px;
+     background: #e6e6e6;
+     display: inline-block;
+     left: 0%;
+     text-align: center;
+     vertical-align: middle;
+ }
+ .statusBlock2,.statusBlock3,.statusBlock4{
+     width: 90px;
+     margin-left: 2%;
+     float:none;
+     text-align: left;
+     
+ }
+ .statusBlock4{
+     width: 104px;
+ }
+ .statusBlock2{
+     width: 89px;
+ }
+ .statusBlock3{
+     width: 62px;
+ }
+ .orangeCircle{
+     position: relative;
+     border-radius: 20px;
+     background: orange;
+     height: 26px;
+     width: 26px;
+     display: inline-block;
+     text-align: center;
+
+     /* vertical-align: middle; */
+ }
+ 
+ .imgPlus{
+    position: relative;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    left: 0%;
+    float: left;
+    background: white;
+    
+ }
+ .imgMinus{
+     position: relative;
+     float: right;
+     vertical-align: middle;
+     display: inline-block;
+     height: 26px;
+     width: 26px;
+     background: white;
+ }
+ .value1{
+    text-align: center;
+    vertical-align: middle;
+    left: 15%;
+    display: inline-block;
+    position: relative;
+    height: 26px;
+    width: 82px;
+    
+    /* border:1px solid black; */
+ }
+ .remove{
+     height: 26px;
+     width: 26px;
+     position: relative;
+     display: inline-block;
+     vertical-align: middle;
+     float: right;
+ }
+ .header{
+     position: relative;
+     left: 26%;
+     top: -10%;
+ }
+ 
+/* text-align: center;
+display: inline-block; */

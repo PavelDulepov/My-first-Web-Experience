@@ -1,0 +1,65 @@
+.buyList1{
+    position: fixed;
+    width: 90px;
+    height: 150px;
+    top: 95%;
+    background:#990099;
+    border-radius: 8px;
+    transition: all ease 1s;
+}
+.textBuyL{
+    position: relative;
+    width: 90px;
+    height: 30px;
+    top: -13%;
+}
+.header5{
+    color: white;
+    font-size: 150%;
+}
+
+.imgPlus,.imgMinus {
+	border-bottom: 1px dotted #0077AA;
+	cursor: help;
+}
+.imgMinus::after {
+    width: 100px;
+    z-index: 100;
+	background: #990099;
+	border-radius: 8px 8px 8px 0px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	margin-top: -24px;
+	opacity: 0; /* Наш элемент прозрачен... */
+	padding: 3px 7px;
+	position: absolute;
+	visibility: hidden; /* ...и скрыт. */
+			
+	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+.imgPlus::after {
+    width: 100px;
+    z-index: 100;
+	background: #990099;
+	border-radius: 8px 8px 8px 0px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	margin-top: -24px;
+	opacity: 0; /* Наш элемент прозрачен... */
+	padding: 3px 7px;
+	position: absolute;
+	visibility: hidden; /* ...и скрыт. */
+			
+	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+		
+.imgPlus:hover::after {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+}
+.imgMinus:hover::after {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+}
