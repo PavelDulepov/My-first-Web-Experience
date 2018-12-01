@@ -43,6 +43,7 @@ div{
     position: relative;
     left: 5%;
     width: 300px;
+    height: auto;
 }
 
 #input1{
@@ -69,7 +70,7 @@ input[type="image"] {
      vertical-align: top;
      
  }
- .value{
+ .value,.valueCheese,.valueCookies,.valueTomatoes{
      position: relative;
      height: 26px;
      width: 26px;
@@ -98,8 +99,8 @@ input[type="image"] {
      position: relative;
      height: 20px;
      width: 80px;
-     margin-top: 15px;
-     margin-bottom: 5px;
+     margin-top: 3%px;
+     margin-bottom: 3%px;
  }
  
  p{
@@ -137,18 +138,22 @@ input[type="image"] {
      margin-left: 2%;
      float:none;
      text-align: left;
+     margin-bottom: 3%;
      
  }
  .statusBlock4{
+    display:none;
      width: 104px;
  }
  .statusBlock2{
+    display:none;
      width: 89px;
  }
  .statusBlock3{
+    display:none;
      width: 62px;
  }
- .orangeCircle{
+ .orangeCircleTomat,.orangeCircleCookies,.orangeCircleCheese{
      position: relative;
      border-radius: 20px;
      background: orange;
@@ -180,7 +185,7 @@ input[type="image"] {
      width: 26px;
      background: white;
  }
- .value1{
+ .value1Tomat,.value1Cookies,.value1Cheese{
     text-align: center;
     vertical-align: middle;
     left: 15%;
@@ -199,11 +204,11 @@ input[type="image"] {
      vertical-align: middle;
      float: right;
  }
- .header{
+  .header{
      position: relative;
      left: 26%;
-     top: -10%;
- }
+     
+ } 
  
 /* text-align: center;
 display: inline-block; */

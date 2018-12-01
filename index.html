@@ -28,10 +28,10 @@
                 <hr>
                 <div class='string2'>
                     <div class='Name'>Помидоры</div>
-                    <div class="value1">
+                    <div class="value1Tomat">
                         <div class='imgPlus' data-tooltip="Tooltip">
                             <button type="button" class='plusButton' ><img class="imgPlus" src="https://cdn1.iconfinder.com/data/icons/interface-elements/32/add-circle-24.png" alt=""></button></div>
-                    <div class='value'><p class='innerValue'>2</p></div>
+                    <div class='valueTomatoes'><p class='innerValue'>0</p></div>
                     <div class="imgMinus" data-tooltip="Tooltip">
                         <button type="button" class='minusButton'>
                         <img src="https://cdn1.iconfinder.com/data/icons/interface-elements/32/remove-circle-24.png" alt="" class='imgMinus'>
@@ -45,10 +45,10 @@
                 <hr>
                 <div class="string3">
                     <div class='Name'>Печенье</div>
-                    <div class="value1">
+                    <div class="value1Cookies">
                         <div class='imgPlus' data-tooltip="Tooltip">
                             <button type="button" class='plusButton' ><img class="imgPlus" src="https://cdn1.iconfinder.com/data/icons/interface-elements/32/add-circle-24.png" alt=""></button></div>
-                    <div class='value'><p class='innerValue'>2</p></div>
+                    <div class='valueCookies'><p class='innerValue'>0</p></div>
                     <div class="imgMinus" data-tooltip="Tooltip">
                         <button type="button" class='minusButton'>
                         <img src="https://cdn1.iconfinder.com/data/icons/interface-elements/32/remove-circle-24.png" alt="" class='imgMinus'>
@@ -65,10 +65,10 @@
                 <hr>
                 <div class="string4">
                         <div class='Name'>Сыр</div>
-                        <div class="value1">
+                        <div class="value1Cheese">
                             <div class='imgPlus' data-tooltip="Tooltip">
                                 <button type="button" class='plusButton'><img class="imgPlus" src="https://cdn1.iconfinder.com/data/icons/interface-elements/32/add-circle-24.png" alt=""></button></div>
-                        <div class='value'><p class="innerValue">1</p></div>
+                        <div class='valueCheese'><p class="innerValue">0</p></div>
                         <div class="imgMinus" data-tooltip="Tooltip">
                             <button type="button" class='minusButton'>
                             <img src="https://cdn1.iconfinder.com/data/icons/interface-elements/32/remove-circle-24.png" alt="" class='imgMinus'>
@@ -85,28 +85,21 @@
            </div>
            <div id='block2'>
                 <div class='header'>
-                    <div class='header1'>
-                        <h1>Осталось</h1>
-                    </div>
-                </div>
-                <hr>
-                <div class="statusBlock2">
-                   <p class='textIside'>Печенье</p>
-                   <div class='orangeCircle'><p>1</p></div> 
-                </div>
-                <div class="statusBlock3">
-                   <p class='textIside'>Сыр</p>
-                   <div class='orangeCircle'><p>2</p></div>
-                </div>
-                <hr>
-                <div class='header'>
                     <h1 class='header1'>Куплено</h1>
                 </div>
                 <hr>
                 <div class="statusBlock4">
                         <p class='textIside'>Помидоры</p>
-                        <div class='orangeCircle'><p>1</p></div> 
+                        <div class='orangeCircleTomat'><p class="innerValue" id='OrangeCircleTomatValue'>1</p></div> 
                 </div>
+                <div class="statusBlock2">
+                    <p class='textIside'>Печенье</p>
+                    <div class='orangeCircleCookies'><p  id='OrangeCircleCookiesValue' class="innerValue">1</p></div> 
+                 </div>
+                 <div class="statusBlock3">
+                    <p class='textIside'>Сыр</p>
+                    <div class='orangeCircleCheese'><p class="innerValue" id='OrangeCircleCheeseValue'>2</p></div>
+                 </div>
            </div>
        </div>
    </div>
